@@ -1,6 +1,9 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Link from "next/link";
+import { EC2_ICON } from "../icons/ec2.icon";
+import { NAT_ICON } from "../icons/nat-gateway.icon";
+import { VPC_ICON } from "../icons/vpc.icon";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -12,58 +15,146 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
+        <h1 className={styles.title}>Build on AWS</h1>
+        <h2>A Developer's guide to Architecting with Amazon's Cloud</h2>
+        <hr />
+        <h1>Networking</h1>
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/vpc">
+                <h2>VPC</h2>
+              </a>
+              <VPC_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>Virtual Private Cloud</p>
+              <h3>Exaples</h3>
+              <Link href="/examples/hello-world-node">
+                Hellow World Node.js App
+              </Link>
+            </div>
+          </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/nat">
+                <h2>NAT</h2>
+              </a>
+              <NAT_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>Network Address Translation</p>
+              <h3>Exaples</h3>
+              <Link href="/private">Private Connection</Link>
+            </div>
+          </div>
+        </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+        <h1>Serverless</h1>
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/nat">
+                <h2>S3</h2>
+              </a>
+              <NAT_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>AWS Simple Storage</p>
+              <h3>Exaples</h3>
+              <Link href="/examples/hello-world-node">
+                Hellow World Node.js App
+              </Link>
+            </div>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/nat">
+                <h2>Lambda</h2>
+              </a>
+              <NAT_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>Lambda</p>
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/nat">
+                <h2>API Gateway</h2>
+              </a>
+              <NAT_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>API Gateway</p>
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/nat">
+                <h2>Cloud Watch</h2>
+              </a>
+              <NAT_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>Cloud Watch</p>
+            </div>
+          </div>
+        </div>
+
+        <h1>Compute</h1>
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/ec2">
+                <h2>EC2</h2>
+              </a>
+              <EC2_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>the Elastic Compute</p>
+              <h3>Exaples</h3>
+              <Link href="/examples/hello-world-node">
+                Hellow World Node.js App
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <h1>Security</h1>
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/nat">
+                <h2>Security Groups</h2>
+              </a>
+              <NAT_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>Security Groups</p>
+              <h3>Exaples</h3>
+              <Link href="/examples/hello-world-node">
+                Hellow World Node.js App
+              </Link>
+            </div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/nat">
+                <h2>IAM</h2>
+              </a>
+              <NAT_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>Identity and Access Management</p>
+            </div>
+          </div>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
-  )
+  );
 }
