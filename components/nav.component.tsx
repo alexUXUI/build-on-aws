@@ -35,6 +35,31 @@ export const Nav = () => {
           <h2>EC2</h2>
         </a>
       </div>
+      <div className={styles.navItem}>
+        <a href="/s3" className={selectedRoute("/s3")}>
+          <h2>S3</h2>
+        </a>
+      </div>
+      <div className={styles.navItem}>
+        <a href="/lambda" className={selectedRoute("/lambda")}>
+          <h2>Lambda</h2>
+        </a>
+      </div>
+      <div className={styles.navItem}>
+        <a href="/cloud-watch" className={selectedRoute("/cloud-watch")}>
+          <h2>CW</h2>
+        </a>
+      </div>
+      <div className={styles.navItem}>
+        <a href="/iam" className={selectedRoute("/iam")}>
+          <h2>IAM</h2>
+        </a>
+      </div>
+      <div className={styles.navItem}>
+        <a href="/iam" className={selectedRoute("/iam")}>
+          <h2>Security Groups</h2>
+        </a>
+      </div>
     </nav>
   );
 };
