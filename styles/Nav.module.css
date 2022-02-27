@@ -26,8 +26,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: rgb(67, 67, 67);
-  font-size: 16px;
+  color: #434343;
+  font-size: 12px;
 }
 
 .navItem a > h2 {

@@ -1,8 +1,8 @@
-export const Lambda = () => {
+export const LAMBDA_ICON = () => {
   return (
     <svg
-      width="80px"
-      height="80px"
+      width="48px"
+      height="48px"
       viewBox="0 0 80 80"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"

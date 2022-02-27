@@ -8,14 +8,14 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Nav />
       <Component {...pageProps} />
-
       <footer className={styles.footer}>
         <a
           href="https://github.com/alexuxui"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by <span className={styles.logo}>☕️</span>
+          Made with 🖤 and ☕️ by Alex Bennett.
+          <br />© All rights reserved. {new Date().getFullYear()}
         </a>
       </footer>
     </>
