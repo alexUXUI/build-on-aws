@@ -1,9 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
+import { API_GATEWAY_ICON } from "../icons/api-gateway.icon";
+import { CLOUDWATCH_ICON } from "../icons/cloud-watch.icon";
 import { EC2_ICON } from "../icons/ec2.icon";
+import { IAM_ICON } from "../icons/iam.icon";
 import { LAMBDA_ICON } from "../icons/lambda.icon";
 import { NAT_ICON } from "../icons/nat-gateway.icon";
 import { S3_ICON } from "../icons/s3.icon";
+import { SECURITY_GROUP_ICON } from "../icons/security-group.icon";
 import { VPC_ICON } from "../icons/vpc.icon";
 import styles from "../styles/Home.module.css";
 
@@ -68,10 +72,6 @@ export default function Home() {
             </div>
             <div className={styles.content}>
               <p>AWS Simple Storage</p>
-              <h3>Examples</h3>
-              <Link href="/examples/hello-world-node">
-                Hellow World Node.js App
-              </Link>
             </div>
           </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
               <a href="/nat">
                 <h2>API Gateway</h2>
               </a>
-              <NAT_ICON />
+              <API_GATEWAY_ICON />
             </div>
             <div className={styles.content}>
               <p>API Gateway</p>
@@ -104,7 +104,7 @@ export default function Home() {
               <a href="/nat">
                 <h2>Cloud Watch</h2>
               </a>
-              <NAT_ICON />
+              <CLOUDWATCH_ICON />
             </div>
             <div className={styles.content}>
               <p>Cloud Watch</p>
@@ -138,7 +138,7 @@ export default function Home() {
               <a href="/nat">
                 <h2>Security Groups</h2>
               </a>
-              <NAT_ICON />
+              <SECURITY_GROUP_ICON />
             </div>
             <div className={styles.content}>
               <p>Security Groups</p>
@@ -153,7 +153,7 @@ export default function Home() {
               <a href="/nat">
                 <h2>IAM</h2>
               </a>
-              <NAT_ICON />
+              <IAM_ICON />
             </div>
             <div className={styles.content}>
               <p>Identity and Access Management</p>

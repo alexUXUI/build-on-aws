@@ -19,7 +19,7 @@ const HelloWorldNode = () => {
             update the security group to allow traffic from the internet to the
             port.
           </p>
-          <img src="/diagrams/AWS-EC2-1.png" alt="AWS EC2" height="800px" />
+          <img src="/diagrams/AWS-EC2-1.png" alt="AWS EC2" width="100%" />
           <ol>
             <li>
               Launch instance: go to EC2 dashboard and select launch insatnce
