@@ -15,7 +15,7 @@ export const CLOUDWATCH_ICON = () => {
           y1="100%"
           x2="100%"
           y2="0%"
-          id="linearGradient-1"
+          id="linearGradient-cw"
         >
           <stop stop-color="#B0084D" offset="0%"></stop>
           <stop stop-color="#FF4F8B" offset="100%"></stop>
@@ -30,7 +30,7 @@ export const CLOUDWATCH_ICON = () => {
       >
         <g
           id="Icon-Architecture-BG/64/Management-Governance"
-          fill="url(#linearGradient-1)"
+          fill="url(#linearGradient-cw)"
         >
           <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>
         </g>

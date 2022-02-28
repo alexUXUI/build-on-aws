@@ -15,7 +15,7 @@ export const SECURITY_GROUP_ICON = () => {
           y1="100%"
           x2="100%"
           y2="0%"
-          id="linearGradient-1"
+          id="linearGradient-sg"
         >
           <stop stop-color="#BD0816" offset="0%"></stop>
           <stop stop-color="#FF5252" offset="100%"></stop>
@@ -30,7 +30,7 @@ export const SECURITY_GROUP_ICON = () => {
       >
         <g
           id="Icon-Architecture-BG/64/Security-Identity-Compliance"
-          fill="url(#linearGradient-1)"
+          fill="url(#linearGradient-sg)"
         >
           <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>
         </g>

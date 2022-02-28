@@ -10,6 +10,9 @@
   box-shadow: 0px 5px 14px 1px #eaeaea;
   position: fixed;
   flex-wrap: wrap;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .selected {

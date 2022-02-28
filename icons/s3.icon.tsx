@@ -9,13 +9,7 @@ export const S3_ICON = () => {
     >
       <title>Icon-Architecture/64/Arch_Amazon-Simple-Storage-Service_64</title>
       <defs>
-        <linearGradient
-          x1="0%"
-          y1="100%"
-          x2="100%"
-          y2="0%"
-          id="linearGradient-1"
-        >
+        <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="s3-gradient">
           <stop stop-color="#1B660F" offset="0%"></stop>
           <stop stop-color="#6CAE3E" offset="100%"></stop>
         </linearGradient>
@@ -27,7 +21,7 @@ export const S3_ICON = () => {
         fill="none"
         fill-rule="evenodd"
       >
-        <g id="Rectangle" fill="url(#linearGradient-1)">
+        <g id="Rectangle" fill="url(#s3-gradient)">
           <rect x="0" y="0" width="80" height="80"></rect>
         </g>
         <g

@@ -15,7 +15,7 @@ export const LAMBDA_ICON = () => {
           y1="100%"
           x2="100%"
           y2="0%"
-          id="linearGradient-1"
+          id="linearGradient-lambda"
         >
           <stop stop-color="#C8511B" offset="0%"></stop>
           <stop stop-color="#FF9900" offset="100%"></stop>
@@ -28,7 +28,10 @@ export const LAMBDA_ICON = () => {
         fill="none"
         fill-rule="evenodd"
       >
-        <g id="Icon-Architecture-BG/64/Compute" fill="url(#linearGradient-1)">
+        <g
+          id="Icon-Architecture-BG/64/Compute"
+          fill="url(#linearGradient-lambda)"
+        >
           <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>
         </g>
         <path

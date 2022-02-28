@@ -26,8 +26,6 @@ export default function Home() {
           A Developer's guide to Architecting with Amazon's Cloud
         </h2>
 
-        <hr />
-
         <h1 className={styles.category}>Networking</h1>
         <div className={styles.grid}>
           <div className={styles.card}>
@@ -40,9 +38,13 @@ export default function Home() {
             <div className={styles.content}>
               <p>Virtual Private Cloud</p>
               <h3>Examples</h3>
-              <Link href="/examples/hello-world-node">
-                Hellow World Node.js App
-              </Link>
+              <ul>
+                <li>
+                  <Link href="/examples/hello-world-node">
+                    Hello World Node.js App
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -56,12 +58,42 @@ export default function Home() {
             <div className={styles.content}>
               <p>Network Address Translation</p>
               <h3>Examples</h3>
-              <Link href="/private">Private Connection</Link>
+              <ul>
+                <li>
+                  <Link href="/private">Private Connection</Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-
-        <h1 className={styles.category}>Serverless</h1>
+        <h1 className={styles.category}>Compute</h1>
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/ec2">
+                <h2>EC2</h2>
+              </a>
+              <EC2_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>the Elastic Compute</p>
+              <h3>Examples</h3>
+              <ul>
+                <li>
+                  <Link href="/examples/hello-world-node">
+                    Hello World Node.js App
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/examples/role-based-access">
+                    Role Based Access with IAM
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <h1 className={styles.category}>Storage</h1>
         <div className={styles.grid}>
           <div className={styles.card}>
             <div className={styles.header}>
@@ -72,9 +104,30 @@ export default function Home() {
             </div>
             <div className={styles.content}>
               <p>AWS Simple Storage</p>
+              <h3>Examples</h3>
+              <ul>
+                <li>
+                  <Link href="/examples/role-based-access">
+                    Role Based Access
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
-
+          <div className={styles.card}>
+            <div className={styles.header}>
+              <a href="/nat">
+                <h2>RDS</h2>
+              </a>
+              <S3_ICON />
+            </div>
+            <div className={styles.content}>
+              <p>Relational DBs</p>
+            </div>
+          </div>
+        </div>
+        <h1 className={styles.category}>Serverless</h1>
+        <div className={styles.grid}>
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/nat">
@@ -111,26 +164,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <h1 className={styles.category}>Compute</h1>
-        <div className={styles.grid}>
-          <div className={styles.card}>
-            <div className={styles.header}>
-              <a href="/ec2">
-                <h2>EC2</h2>
-              </a>
-              <EC2_ICON />
-            </div>
-            <div className={styles.content}>
-              <p>the Elastic Compute</p>
-              <h3>Examples</h3>
-              <Link href="/examples/hello-world-node">
-                Hellow World Node.js App
-              </Link>
-            </div>
-          </div>
-        </div>
-
         <h1 className={styles.category}>Security</h1>
         <div className={styles.grid}>
           <div className={styles.card}>
@@ -144,7 +177,7 @@ export default function Home() {
               <p>Security Groups</p>
               <h3>Examples</h3>
               <Link href="/examples/hello-world-node">
-                Hellow World Node.js App
+                Hello World Node.js App
               </Link>
             </div>
           </div>
@@ -157,6 +190,14 @@ export default function Home() {
             </div>
             <div className={styles.content}>
               <p>Identity and Access Management</p>
+              <h3>Examples</h3>
+              <ul>
+                <li>
+                  <Link href="/examples/role-based-access">
+                    Role Based Access with IAM using EC2 and S3
+                  </Link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

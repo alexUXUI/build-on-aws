@@ -23,7 +23,9 @@ const EC2 = () => {
               Images. These specify the OS and the instance type. There are
               instance types for all needs. T2 Micro instances are the smallest.
               T2 Medium instances are the middle. T2 Large instances are the
-              largest.
+              largest. Cluster placement group for low latecy HPC, partition for
+              semi-ditributed, and spread for every instance is on its own
+              hardware.
             </p>
           </div>
           <hr />
@@ -50,6 +52,7 @@ const EC2 = () => {
               <li>AWS Payment Plans: Spot instance, reserve instance, etc</li>
               <li>Auto Scaling and its policies</li>
               <li>Nature of the Workload: schedule, cant fail, etc.</li>
+              <li>Placement groups. Cluster, Partition, Spread</li>
             </ul>
           </div>
           <div style={{ width: "100%" }}>
