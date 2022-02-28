@@ -21,8 +21,7 @@ main {
 ol,
 ul {
   max-width: 90%;
-  padding: 0;
-  margin: 0;
+  padding: 0.25rem;
   margin: auto;
 }
 

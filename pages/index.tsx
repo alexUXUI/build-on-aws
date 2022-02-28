@@ -60,7 +60,9 @@ export default function Home() {
               <h3>Examples</h3>
               <ul>
                 <li>
-                  <Link href="/private">Private Connection</Link>
+                  <Link href="/examples/private-connection">
+                    Private Connection
+                  </Link>
                 </li>
               </ul>
             </div>
