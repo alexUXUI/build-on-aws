@@ -23,7 +23,7 @@ const PrivateConnection = () => {
             tend to be private.
           </p>
           <h2>Reference Architecture</h2>
-          <img src="/diagrams/nat-ref-arch.png" alt="nat types" width="800px" />
+          <img src="/diagrams/nat-ref-arch.png" alt="nat types" width="100%" />
 
           <h2>Steps to Complete</h2>
           <ol>
