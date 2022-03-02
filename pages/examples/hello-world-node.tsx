@@ -61,13 +61,13 @@ const HelloWorldNode = () => {
           instructions:
           https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html
         </li>
-          <li>
+        <li>
           Install Git to downloa the Node.js code onto the server
           <code>$ sudo yum install git</code>
           <code>$ git clone </code>
           https://github.com/alexUXUI/simple-ec2-server
         </li>
-         <li>
+        <li>
           Cd into the folder and start the process
           <code>$ cd simple-ec2-server</code>
           <code>$ npm run start</code>
@@ -77,7 +77,7 @@ const HelloWorldNode = () => {
             <br /> node index.js
           </code>
         </li>
-         <li>
+        <li>
           Now, if we test out the hello world app by finding the the public IP
           address in the EC2 details page andding port :3000 to the URL, we
           should see an error page saying "This site can’t be reached". This is
@@ -101,7 +101,7 @@ const HelloWorldNode = () => {
           URL should look something like:
           {/* <code>http://ec2-x-xx-xxx-xx.region.compute.amazonaws.com:3000/</code> */}
         </li>
-        <li>Visit the URL and you should see: "Hello World" 🎉</li> */}
+        <li>Visit the URL and you should see: "Hello World" 🎉</li>
       </ol>
       <h2>Part 2 Linus iptable IP mapping</h2>
       <p>Credit to: https://gist.github.com/kentbrew/776580</p>
