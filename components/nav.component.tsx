@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import cs from "classnames";
 import styles from "../styles/Nav.module.css";
 import config from "../config/nav.json";
+import Link from "next/link";
 
 const useViewportResize = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -109,7 +110,9 @@ export const Nav = () => {
     return (
       <nav ref={mobileMenuRef} className={styles.mobileNav}>
         <div className={styles.navHeader}>
-          <h2 className={styles.navLogo}>Build On AWS</h2>
+          <h2 className={styles.navLogo}>
+            <Link href="/">Build On AWS</Link>
+          </h2>
           <Hamburger setIsOpen={setIsOpen} isOpen={isOpen} />
         </div>
         <div

@@ -1,8 +1,10 @@
+import ArticleTemplate from "./article-template";
+
 const Networking = () => {
   return (
-    <div>
-      <h1>Networking</h1>
-    </div>
+    <ArticleTemplate title="Networking" description="All things Networking">
+      <p>Ready for content!</p>
+    </ArticleTemplate>
   );
 };
 

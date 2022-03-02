@@ -1,8 +1,10 @@
+import ArticleTemplate from "./article-template";
+
 const Compute = () => {
   return (
-    <div>
-      <h1>Compute</h1>
-    </div>
+    <ArticleTemplate title="Compute" description="All things Compute">
+      <p>Ready for content!</p>
+    </ArticleTemplate>
   );
 };
 

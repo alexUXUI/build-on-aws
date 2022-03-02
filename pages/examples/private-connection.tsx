@@ -11,7 +11,7 @@ const PrivateConnection = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div style={{ maxWidth: "800px" }}>
+        <div>
           <h1>Private Connection 🔌</h1>
           <h2>Overview</h2>
           <p>

@@ -1,8 +1,10 @@
+import ArticleTemplate from "./article-template";
+
 const Storage = () => {
   return (
-    <div>
-      <h1>Storage</h1>
-    </div>
+    <ArticleTemplate title="Storage" description="All thing storage">
+      <p>Ready for content!</p>
+    </ArticleTemplate>
   );
 };
 

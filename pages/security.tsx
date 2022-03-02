@@ -1,8 +1,10 @@
+import ArticleTemplate from "./article-template";
+
 const Security = () => {
   return (
-    <div>
-      <h1>Security</h1>
-    </div>
+    <ArticleTemplate title="Security" description="All things Security">
+      <p>Ready for content!</p>
+    </ArticleTemplate>
   );
 };
 
