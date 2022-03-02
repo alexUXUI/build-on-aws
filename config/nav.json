@@ -1,0 +1,28 @@
+{
+  "nav": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Serverless",
+      "url": "/serverless"
+    },
+    {
+      "name": "Storage",
+      "url": "/storage"
+    },
+    {
+      "name": "Networking",
+      "url": "/networking"
+    },
+    {
+      "name": "Compute",
+      "url": "/compute"
+    },
+    {
+      "name": "Security",
+      "url": "/security"
+    }
+  ]
+}

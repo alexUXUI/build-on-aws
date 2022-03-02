@@ -29,7 +29,7 @@ const EC2 = () => {
             </p>
           </div>
           <hr />
-          <div style={{ width: "100%" }}>
+          <div>
             <h1>EC2 Examples</h1>
             <ul>
               <li>
@@ -38,7 +38,7 @@ const EC2 = () => {
             </ul>
           </div>
           <hr />
-          <div style={{ width: "100%" }}>
+          <div>
             <h1>EC2 Concerns</h1>
             <ul>
               <li>Networking: how is this EC2 connected/networked?</li>
@@ -55,7 +55,7 @@ const EC2 = () => {
               <li>Placement groups. Cluster, Partition, Spread</li>
             </ul>
           </div>
-          <div style={{ width: "100%" }}>
+          <div>
             <ul>
               <li>
                 List all process running on Linux EC2 server: <code>ps -A</code>

@@ -10,16 +10,16 @@ export const S3_ICON = () => {
       <title>Icon-Architecture/64/Arch_Amazon-Simple-Storage-Service_64</title>
       <defs>
         <linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="s3-gradient">
-          <stop stop-color="#1B660F" offset="0%"></stop>
-          <stop stop-color="#6CAE3E" offset="100%"></stop>
+          <stop stopColor="#1B660F" offset="0%"></stop>
+          <stop stopColor="#6CAE3E" offset="100%"></stop>
         </linearGradient>
       </defs>
       <g
         id="Icon-Architecture/64/Arch_Amazon-Simple-Storage-Service_64"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g id="Rectangle" fill="url(#s3-gradient)">
           <rect x="0" y="0" width="80" height="80"></rect>

@@ -13,11 +13,11 @@ const RoleBasedAccess = () => {
       <main>
         <div style={{ maxWidth: "800px" }}>
           <h1>Role based access with IAM</h1>
-          <Image
+          <img
             src="/diagrams/role-based-access.png"
             alt="AWS S3"
-            height="559px"
-            width="800px"
+            // height="559px"
+            // width="800px"
           />
           <ol>
             <li>Create an S3 bucket and upload some files to it.</li>

@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "aws-svg-icons": "^3.0.0-2021-07-30",
+    "classnames": "^2.3.1",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "responsive-navbar-react": "^1.2.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.21",

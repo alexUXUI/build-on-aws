@@ -17,16 +17,16 @@ export const VPC_ICON = () => {
           y2="0%"
           id="linearGradient-vpc"
         >
-          <stop stop-color="#4D27A8" offset="0%"></stop>
-          <stop stop-color="#A166FF" offset="100%"></stop>
+          <stop stopColor="#4D27A8" offset="0%"></stop>
+          <stop stopColor="#A166FF" offset="100%"></stop>
         </linearGradient>
       </defs>
       <g
         id="Icon-Architecture/64/Arch_Amazon-Virtual-Private-Cloud_64"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g
           id="Icon-Architecture-BG/64/Networking-Content-Delivery"

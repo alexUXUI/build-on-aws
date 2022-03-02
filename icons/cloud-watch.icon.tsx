@@ -17,16 +17,16 @@ export const CLOUDWATCH_ICON = () => {
           y2="0%"
           id="linearGradient-cw"
         >
-          <stop stop-color="#B0084D" offset="0%"></stop>
-          <stop stop-color="#FF4F8B" offset="100%"></stop>
+          <stop stopColor="#B0084D" offset="0%"></stop>
+          <stop stopColor="#FF4F8B" offset="100%"></stop>
         </linearGradient>
       </defs>
       <g
         id="Icon-Architecture/64/Arch_Amazon-CloudWatch_64"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g
           id="Icon-Architecture-BG/64/Management-Governance"

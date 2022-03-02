@@ -10,7 +10,7 @@ const HelloWorldNode = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div style={{ maxWidth: "800px" }}>
+        <div>
           <h2>EC2 Node.js hello world!</h2>
           <p>
             In this example, we are going to create an EC2 instance, attach it

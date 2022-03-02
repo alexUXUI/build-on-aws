@@ -1,4 +1,4 @@
-.container {
+/* .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -66,15 +66,6 @@
   font-size: 26px;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
 .grid {
   display: flex;
   flex-direction: row;
@@ -83,9 +74,9 @@
   width: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+} */
 
-.main h1:not(:first-child) {
+/* .main h1:not(:first-child) {
   align-self: flex-start;
 }
 
@@ -102,9 +93,9 @@
 .card:focus,
 .card:active {
   box-shadow: 0px 5px 14px 1px #eaeaea;
-}
+} */
 
-.card h2 {
+/* .card h2 {
   margin: 10 0 1rem 0;
   font-size: 1.5rem;
   color: #3461f4;
@@ -126,31 +117,30 @@
 .card li {
   margin: 0;
   padding: 0;
-}
+} */
 
-.header {
+/* .header {
   display: flex;
   width: 100%;
   justify-content: space-between;
   height: 48px;
   align-items: center;
-  padding-left: 1rem;
   background: white;
   border-bottom: 1px solid #eaeaea;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
-}
+} */
 
-.content {
+/* .content {
   padding: 1rem;
 }
 
 .logo {
   height: 1em;
   margin-left: 0.5rem;
-}
+} */
 
-@media (max-width: 700px) {
+/* @media (max-width: 750px) {
   .grid {
     width: 100%;
     flex-direction: column;
@@ -161,4 +151,4 @@
     flex-direction: column;
     margin: 0.5rem 0 0.5rem 0;
   }
-}
+} */

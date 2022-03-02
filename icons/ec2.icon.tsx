@@ -17,16 +17,16 @@ export const EC2_ICON = () => {
           y2="0%"
           id="linearGradient-ec2"
         >
-          <stop stop-color="#C8511B" offset="0%"></stop>
-          <stop stop-color="#FF9900" offset="100%"></stop>
+          <stop stopColor="#C8511B" offset="0%"></stop>
+          <stop stopColor="#FF9900" offset="100%"></stop>
         </linearGradient>
       </defs>
       <g
         id="Icon-Architecture/64/Arch_Amazon-EC2_64"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g id="Icon-Architecture-BG/64/Compute" fill="url(#linearGradient-ec2)">
           <rect id="Rectangle" x="0" y="0" width="80" height="80"></rect>

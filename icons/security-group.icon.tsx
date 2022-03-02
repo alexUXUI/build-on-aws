@@ -17,16 +17,16 @@ export const SECURITY_GROUP_ICON = () => {
           y2="0%"
           id="linearGradient-sg"
         >
-          <stop stop-color="#BD0816" offset="0%"></stop>
-          <stop stop-color="#FF5252" offset="100%"></stop>
+          <stop stopColor="#BD0816" offset="0%"></stop>
+          <stop stopColor="#FF5252" offset="100%"></stop>
         </linearGradient>
       </defs>
       <g
         id="Icon-Architecture/64/Arch_AWS-Shield_64"
         stroke="none"
-        stroke-width="1"
+        strokeWidth="1"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
       >
         <g
           id="Icon-Architecture-BG/64/Security-Identity-Compliance"

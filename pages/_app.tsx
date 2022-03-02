@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { Nav } from "../components/nav.component";
 import styles from "../styles/Home.module.css";
+import { useState } from "react";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
