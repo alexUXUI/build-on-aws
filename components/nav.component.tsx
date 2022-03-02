@@ -1,9 +1,9 @@
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState, useEffect, useRef } from "react";
 import cs from "classnames";
 import styles from "../styles/Nav.module.css";
 import config from "../config/nav.json";
-import Link from "next/link";
 
 const useViewportResize = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -29,11 +29,12 @@ const useViewportResize = () => {
   };
 };
 
-type Item = {
+type NavLink = {
   name: string;
   url: string;
 };
 
+// open close mobile hambuger icon
 const Hamburger = ({
   setIsOpen,
   isOpen,
@@ -73,6 +74,7 @@ export const Nav = () => {
   // state for the mobile nav menu
   const [isOpen, setIsOpen] = useState(false);
 
+  // react ref to the nav menu
   const mobileMenuRef = useRef<HTMLDivElement>(null);
 
   // close the menu when we click outside of it
@@ -123,7 +125,7 @@ export const Nav = () => {
         >
           {isOpen ? (
             <ul className={styles.mobileNavLinks}>
-              {config.nav.map((item: Item, index: number) => (
+              {config.nav.map((item: NavLink, index: number) => (
                 <li key={index} className={styles.navItem}>
                   <a href={item.url} className={selectedRoute(item.url)}>
                     <h2>{item.name}</h2>
@@ -140,7 +142,7 @@ export const Nav = () => {
   return (
     <nav className={styles.desktopNav}>
       <ul>
-        {config.nav.map((item: Item, index: number) => (
+        {config.nav.map((item: NavLink, index: number) => (
           <li key={index} className={styles.navItem}>
             <a href={item.url} className={selectedRoute(item.url)}>
               <h2>{item.name}</h2>
