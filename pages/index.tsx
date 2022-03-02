@@ -20,24 +20,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.banner}>
-        <h1 className={styles.title}>Build on AWS 👷‍♀️🏗</h1>
+        <h1 className={styles.title}>👷‍♀️ Build on AWS 🏗</h1>
         <p className={styles.description}>
           A Developer's guide to Architecting with Amazon's Cloud
         </p>
       </div>
       <main className={styles.main}>
-        <h3 className={styles.category}>Networking</h3>
+        <h2 className={styles.category}>Networking</h2>
         <div className={styles.grid}>
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/vpc">
-                <h4>VPC</h4>
+                <h3>VPC</h3>
               </a>
               <VPC_ICON />
             </div>
             <div className={styles.content}>
               <p>Virtual Private Cloud</p>
-              <h3>Examples</h3>
+              <h2>Examples</h2>
               <ul>
                 <li>
                   <Link href="/examples/hello-world-node">
@@ -51,13 +51,13 @@ export default function Home() {
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/nat">
-                <h4>NAT</h4>
+                <h3>NAT</h3>
               </a>
               <NAT_ICON />
             </div>
             <div className={styles.content}>
               <p>Network Address Translation</p>
-              <h3>Examples</h3>
+              <h2>Examples</h2>
               <ul>
                 <li>
                   <Link href="/examples/private-connection">
@@ -68,18 +68,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <h3 className={styles.category}>Compute</h3>
+        <h2 className={styles.category}>Compute</h2>
         <div className={styles.grid}>
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/ec2">
-                <h4>EC2</h4>
+                <h3>EC2</h3>
               </a>
               <EC2_ICON />
             </div>
             <div className={styles.content}>
               <p>the Elastic Compute</p>
-              <h3>Examples</h3>
+              <h2>Examples</h2>
               <ul>
                 <li>
                   <Link href="/examples/hello-world-node">
@@ -95,18 +95,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <h3 className={styles.category}>Storage</h3>
+        <h2 className={styles.category}>Storage</h2>
         <div className={styles.grid}>
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/nat">
-                <h4>S3</h4>
+                <h3>S3</h3>
               </a>
               <S3_ICON />
             </div>
             <div className={styles.content}>
               <p>AWS Simple Storage</p>
-              <h3>Examples</h3>
+              <h2>Examples</h2>
               <ul>
                 <li>
                   <Link href="/examples/role-based-access">
@@ -119,7 +119,7 @@ export default function Home() {
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/nat">
-                <h4>RDS</h4>
+                <h3>RDS</h3>
               </a>
               <S3_ICON />
             </div>
@@ -128,12 +128,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <h3 className={styles.category}>Serverless</h3>
+        <h2 className={styles.category}>Serverless</h2>
         <div className={styles.grid}>
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/nat">
-                <h4>Lambda</h4>
+                <h3>Lambda</h3>
               </a>
               <LAMBDA_ICON />
             </div>
@@ -145,7 +145,7 @@ export default function Home() {
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/nat">
-                <h4>API Gateway</h4>
+                <h3>API Gateway</h3>
               </a>
               <API_GATEWAY_ICON />
             </div>
@@ -157,7 +157,7 @@ export default function Home() {
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/nat">
-                <h4>Cloud Watch</h4>
+                <h3>Cloud Watch</h3>
               </a>
               <CLOUDWATCH_ICON />
             </div>
@@ -166,18 +166,18 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <h3 className={styles.category}>Security</h3>
+        <h2 className={styles.category}>Security</h2>
         <div className={styles.grid}>
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/nat">
-                <h4>Security Groups</h4>
+                <h3>Security Groups</h3>
               </a>
               <SECURITY_GROUP_ICON />
             </div>
             <div className={styles.content}>
               <p>Security Groups</p>
-              <h3>Examples</h3>
+              <h2>Examples</h2>
               <Link href="/examples/hello-world-node">
                 Hello World Node.js App
               </Link>
@@ -186,13 +186,13 @@ export default function Home() {
           <div className={styles.card}>
             <div className={styles.header}>
               <a href="/nat">
-                <h4>IAM</h4>
+                <h3>IAM</h3>
               </a>
               <IAM_ICON />
             </div>
             <div className={styles.content}>
               <p>Identity and Access Management</p>
-              <h3>Examples</h3>
+              <h2>Examples</h2>
               <ul>
                 <li>
                   <Link href="/examples/role-based-access">
