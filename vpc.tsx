@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { VPC_DIAGRAM } from "../diagrams/vpc.diagram";
+import { VPC_DIAGRAM } from "./diagrams/vpc.diagram";
 import styles from "../styles/Home.module.css";
 
 const VPC = () => {
@@ -19,7 +19,7 @@ const VPC = () => {
             of as your cloud-based data center where all your servers,
             databases, and applications are hosted.
           </p>
-
+          <VPC_DIAGRAM />
           <span className={styles.card}>
             <h2>CIDR</h2>
             <p>
