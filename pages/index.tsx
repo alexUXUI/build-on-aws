@@ -36,14 +36,14 @@ export default function Home() {
               </div>
               <div className={styles.content}>
                 <p>Virtual Private Cloud</p>
-                <h3>Examples</h3>
+                {/* <h3>Examples</h3>
                 <ul>
                   <li>
                     <Link href="/examples/hello-world-node">
                       Hello World Node.js App
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
 
@@ -56,14 +56,14 @@ export default function Home() {
               </div>
               <div className={styles.content}>
                 <p>Network Address Translation</p>
-                <h3>Examples</h3>
+                {/* <h3>Examples</h3>
                 <ul>
                   <li>
                     <Link href="/examples/private-connection">
                       Private Connection
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function Home() {
               </div>
               <div className={styles.content}>
                 <p>the Elastic Compute</p>
-                <h3>Examples</h3>
+                {/* <h3>Examples</h3>
                 <ul>
                   <li>
                     <Link href="/examples/hello-world-node">
@@ -90,7 +90,7 @@ export default function Home() {
                       Role Based Access with IAM
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
@@ -105,14 +105,14 @@ export default function Home() {
               </div>
               <div className={styles.content}>
                 <p>AWS Simple Storage</p>
-                <h3>Examples</h3>
+                {/* <h3>Examples</h3>
                 <ul>
                   <li>
                     <Link href="/examples/role-based-access">
                       Role Based Access
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div className={styles.card}>
@@ -176,10 +176,10 @@ export default function Home() {
               </div>
               <div className={styles.content}>
                 <p>Security Groups</p>
-                <h3>Examples</h3>
+                {/* <h3>Examples</h3>
                 <Link href="/examples/hello-world-node">
                   Hello World Node.js App
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div className={styles.card}>
@@ -191,14 +191,14 @@ export default function Home() {
               </div>
               <div className={styles.content}>
                 <p>Identity and Access Management</p>
-                <h3>Examples</h3>
+                {/* <h3>Examples</h3>
                 <ul>
                   <li>
                     <Link href="/examples/role-based-access">
                       Role Based Access with IAM using EC2 and S3
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
