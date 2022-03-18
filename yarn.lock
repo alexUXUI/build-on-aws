@@ -182,11 +182,6 @@ react@17.0.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
-responsive-navbar-react@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/responsive-navbar-react/-/responsive-navbar-react-1.2.1.tgz#8d8404cc2f9225db7d19a087118a51475b100fed"
-  integrity sha512-Z5gIhJeEA1NHIOAnAVMXT/wTRqm3aykoy3aX3r3S6gKcDTGbYEFtFubPgKuzfr3fdylxmiJIHVMEKLwHrXzRiA==
-
 scheduler@^0.20.2:
   version "0.20.2"
   resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz"
